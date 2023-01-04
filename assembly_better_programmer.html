@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PZCDBZ8NP"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-1PZCDBZ8NP');
+</script>
+
+	<title>Does learning Assembly make you a better programmer?</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Looking at the reason why you as a programmer should consider learning assembly in order to improve your programming skills">
+	<meta name="keywords" content="Assembly, Assembler, programming, learning, software-development, general-assembly, development-advice, reverse-engineering, assembly-to-improve, ARM, intelx86">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.css"/>
+    <link rel="stylesheet" href="css/colors/red.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+    <!-- Google Web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+
+    <!-- Font icons -->
+    <link rel="stylesheet" href="icon-fonts/fontawesome-5.0.6/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="icon-fonts/flaticon/flaticon.css" />
+
+		<!-- favicon image -->
+
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+			<a href="index.html"><img src="images/logo.png" alt="Home Page"></a>
+        <div class="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- FULL MENU -->
+    <div class="full-menu">
+        <div class="full-inner row">
+            <nav class="col-md-8">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="col-md-4 full-contact">
+                <ul>
+                    <li class="title">Get in Touch</li>
+                    <li>info@redpointwriting.com</li>
+                  <!--  <li>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i>  </a>
+                            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>  </a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>  </a>
+                            <a href="#"><i class="fab fa-behance" aria-hidden="true"></i>  </a>
+                            <a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i>  </a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SITE CONTENT -->
+    <div class="wrapper">
+
+        <div class="cont">
+            <section class="news-article top_180">
+                <article>
+                    <figure class="article-image bottom_30">
+                        <img src="images/assembly.jpg" alt="Assembly hello-world">
+                    </figure>
+                    <small class="category">Programming</small>
+                    <h1 class="title">Does learning Assembly make you a better programmer? </h1>
+										<div class="information bottom_30">Ismael Barkat</div>
+										<p>
+											Are you going to be writing code anytime soon in assembly? Maybe not, as it has very niche use cases. So then why should you bother learning it? Well, before we answer that, let’s take a small look into what assembly even is to better understand how it could help you.
+										</p>
+										<p>
+											Assembly is a term for low-level programming languages that are limited to specific computer architectures. Today it is mainly used in hardware programming and low-level programming on embedded chips. Most mobile devices today use ARM chips written in ARM assembly.
+
+										</p>
+
+										<p>
+											Processors execute commands in binary; they communicate with all the peripherals and handle all the instructions in 1’s and 0’s, which is called machine language. Except, writing complex programs and software in binary wouldn’t be practical or easy for us as programmers.
+										</p>
+
+										<p>
+											That’s where the “assembler” steps in and translates your assembly code to something a bit more legible for the processor. Each instruction written in assembly is tied to a specific instruction on the processors, which is why assemblers are tied to specific instructions based on the architecture of the chip they’re made for.
+											For example, Intel’s i386 processors (or x86) instruction set is very different from ARM’s instruction set. However, I’ll be looking into the specifics, differences, and evolution of each architecture another time as going into detail now will draw away from this topic.
+										</p>
+										<div class="row article-lightbox top_60 bottom_60">
+                            <figure class="col-md-6"><img src="images/assembler.jpg"></figure>
+                    </div>
+										<p>
+											So you’re saying the assemble is a compiler? Well, yeah, it is essentially a compiler but for assembly language. Except there are a few differences between a compiler for C, C++, Java, etc. Most notably, a compiler converts a whole lot of code into machine language at once, while the assembler goes line by line. There are other differences that I encourage you to look into, as the inner workings of a compiler are very interesting.
+										</p>
+
+										<p>
+											Enough about the assembler; let’s look a bit more into the cryptic language itself and what makes it so special. The assembly language isn’t like other higher-level programming languages such as Java, Python, C#, etc. The language syntax is symbolically much close to machine code as you’re working directly with memory locations and addresses inside the processor.
+										</p>
+
+										<p>
+											We know that computers work with individual bits to compute some kind of action, be it a calculation or an I/O action. But since working with individual bits doesn’t happen all too often, we group the actions into chunks of a fixed size. This is where 32bit and 64bit processors come into play. These processors handle information at 4 bytes or 8 bytes at a time, respectively. To utilize the memory, the processor has two basic functions, <b>read</b> and <b>write</b>. 
+										</p>
+
+										<p>
+											The processor initiates a <b>read</b> operation by sending a signal to the specified memory address and makes a copy that is then sent back to the processor to be read.
+												The processor initiates a <b>write</b> operation by transferring information from the processor over to a specified memory address. This action overwrites any information that is currently in that specific memory address. 
+										</p>
+
+										<p>
+											These two basic functions are very important because both program instructions and data are stored in memory. So writing to a location in assembly doesn’t imply just handling data but also executing your desired instructions. This means that as an assembly programmer, you have to be very conscious about which memory addresses you’re using, how much memory you’re using (keep in mind that assembly is usually used on devices with very limited memory) to keep your program in check.
+										</p>
+										<div class="row article-lightbox top_60 bottom_60">
+														<figure class="col-md-6"><img src="images/overflow.png"></figure>
+										</div>
+										<p>
+											This point does bring us to the main reason assembly would help you become a better programmer: being more careful with memory. A lot of the time, we become careless with the way we handle data in our code, and it leads to a lot of memory overflows that can sometimes cause serious or fatal runtime errors. Some of us (myself included) have become especially spoiled with garbage collectors like the GC in Ruby. Of course, most of the time, it isn’t a problem, and yes, utilizing a garbage collector is absolutely great. But being able to fully understand what your program is doing every step of the way alleviates a lot of the confusion of “This should work, but it doesn’t” and “This shouldn’t work, but it does.”
+										</p>
+
+										<p>
+											Forcing yourself to work within this constraint of handling memory allocations properly in assembly will help you be more conscious about what exactly your program is doing in other languages. It gives you that better representation of how data is utilized in memory.
+										</p>
+
+										<p>
+											Some of you may remember Donkey Kong 64 and how you needed to use the “expansion pak” to play it. This was due to a bug in the game that caused some kind of memory issues on the 4MB of the standard N64. This bug would cause any system without the pak to crash after a few minutes of game time. Chris Marlow (One of the developers of DK64) mentions this during<a href="https://youtu.be/VgtAXCaSlpk?t=191"> a stream found here.</a>  Rather than fix the bug, Nintendo had to sell every copy with an “expansion pak” that just added more memory, causing the game to crash long after a “regular” gaming session of about 10 hours. This is an example of how not properly managing your code and understanding the underlying issues of what is going on inside to have drastic effects.
+										</p>
+										<div class="row article-lightbox top_60 bottom_60">
+														<figure class="col-md-6"><img src="images/dkpak.jpg"></figure>
+										</div>
+										<p>
+											We can gather from this that assembly forces the programmer to have a deeper understanding of how the device works for it to work. When writing assembly you have to look into how the instructions access different parts of the CPU, the memory, the other internal devices, and even how your program accesses external devices. This knowledge gives you, the programmer, extensive information on how everything comes together to control the entire system. Even when you’re not writing in assembly anymore, this knowledge stays with you and makes you aware of how even higher-level languages will be interfacing with other devices.
+											Now it would be interesting to take a look into where and how assembly is even used today. Qualcomm Snapdragon chips that are used in millions of mobile devices today use the ARM architecture. Meaning they are all programmed in assembly to control the devices. A lot of IoT devices and mostly low-level hardware and microcontrollers are programmed in assembly. This is because assembly gives the most control over hardware as you have direct access to what is used and how. Coupled with the fact that assembly is not a heavy or big language allows it to be used with the least amount of memory. This makes it a no-brainer for these types of devices.
+										</p>
+
+										<p>
+											Another popular use for assembly is in the reverse engineering of video games. The reason for this is since direct access to any code is basically non-existent when a video game is packaged and released, looking at how a game interacts with all the memory addresses allows programmers to understand how and what is being done. By doing this, communities can piece together bits of code, rebuilding a game’s source code like a jigsaw puzzle. It’s a fun exercise and allows you even to modify older games to do what you want. There are huge communities on older games, and new things are being found even today for games that were released decades ago. In 2019 a hidden coop mode was found in the game files for Luigi’s mansion on the GameCube. This goes to show how much there is to discover in these games.
+										</p>
+
+										<p>
+											Suppose reverse engineering sounds interesting, and you are a fan of the older GameCube animal crossing games. In that case, I’d suggest reading <a href=" https://jamchamb.github.io/2018/06/09/animal-crossing-developer-mode.html">jamchamb’s blog</a> on how he reverse-engineered the games developer mode. It goes into lengthy detail and could help get you interested in the topic. If this game, in particular, doesn’t interest you, you should have almost no trouble finding some info on a game that you do enjoy. You should also check out the subreddit <a href="https://www.reddit.com/r/REGames/">r/REGames</a>
+										</p>
+
+										<p>
+											In summary, assembly is a powerful language for programmers that forces you to work within specific constraints and understand the underlying concepts that go into building software and working with a computer. You have to focus on how your program interacts with each component of the processor, what data is being transferred, and how. This detailed level of thinking helps you with other languages that are not boxed into these constraints, leading you to develop more effective software.
+										</p>
+
+										<p>
+											Let me know your thoughts on the matter and whether or not you use assembly in any way. 
+											If you’ve got any questions, reach out to me at <b>info@redpointwriting.com</b>!
+											<br>
+											<br>
+											<a href="https://hackernoon.com/should-you-learn-assembly-to-become-a-better-programmer-m02k3498">Also seen on hackernoon</a>
+										</p>
+										</article>
+            </section>
+
+        </div> <!-- cont end -->
+    </div> <!-- wrapper end -->
+
+    <footer>
+       <div class="cont">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 copyright">
+                    <img src="images/logo.png" alt="">
+                    <p>©2023 Red Point</p>
+                </div>
+              <!--  <div class="col-md-4 d-sm-none d-md-block">
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook"></i>  </a>
+                        <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>  </a>
+                        <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>  </a>
+                        <a href="#"><i class="fab fa-behance" aria-hidden="true"></i>  </a>
+                        <a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i>  </a>
+                    </div>
+                </div> -->
+                <div class="col-md-4 col-sm-6 col-xs-12 d-none d-sm-block getintouch">
+                    <a href="#">
+                        <strong>Get In Touch</strong><br>
+                        <p>info@redpointwriting.com</p>
+                    </a>
+                </div>
+            </div>
+       </div>
+    </footer>
+
+    <!-- Javascripts -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/jquery.hover3d.js"></script>
+    <script src="twitter-api/tweetie.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
