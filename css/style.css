@@ -759,6 +759,14 @@ header.white .nav-icon span {
     border-radius: 12px;
 }
 
+/*------------------------ Contact Form -------------------------------*/
+#contact-form .btn-primary {
+    color: #000;
+    background-color: #ea0026;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
 
 /*------------------------ 2.2 Twitter Section ------------------------*/
 
