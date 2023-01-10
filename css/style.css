@@ -765,6 +765,8 @@ header.white .nav-icon span {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.3s ease 0s;
 }
 
 #contact-form .btn-primary:hover {
@@ -772,6 +774,8 @@ header.white .nav-icon span {
     background-color: #ea0026;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
+    box-shadow: 0px 15px 20px rgba(255, 41, 41, 0.795);
+    transform: translateY(-7px);
 }
 
 .container {
@@ -788,6 +792,24 @@ header.white .nav-icon span {
     padding: 12px;
 }
 
+.contact-btn-container{
+    text-align: center;
+    padding-top: 50px;
+    z-index: 0;
+}
+
+.contact-btn-container .contact-btn{
+    color: #ffff;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.3s ease 0s;
+
+}
 
 /*------------------------ 2.2 Twitter Section ------------------------*/
 
@@ -1116,6 +1138,11 @@ footer .getintouch a{
     font-size: 14px;
     color: #979797;
     text-decoration: none;
+}
+
+footer .getintouch a strong:hover{
+    color: #ea0026;
+    transition: all ease 0.2s;
 }
 
 footer .getintouch strong{
