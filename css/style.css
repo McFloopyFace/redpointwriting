@@ -782,7 +782,6 @@ header.white .nav-icon span {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #efefef;
-    position: relative;
     border-radius: 25px;
     width: 100%;
 
@@ -793,22 +792,34 @@ header.white .nav-icon span {
 }
 
 .contact-btn-container{
+    position: relative;
     text-align: center;
-    padding-top: 50px;
-    z-index: 0;
+    padding-top: 75px;
+    
 }
 
 .contact-btn-container .contact-btn{
     color: #ffff;
+    position: relative;
     background-color: black;
     font-family: "Montserrat", sans-serif;
+    cursor: pointer;
     font-weight: 700;
-    font-size: 34px;
-    border: 2px solid black;
+    font-size: 52px;
+    border: 4px solid black;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition: all 0.3s ease 0s;
+    z-index: 1000;
+}
 
+.contact-btn-container .contact-btn:hover{
+    color: #000;
+    background-color: #ea0026;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    box-shadow: 0px 15px 20px rgba(255, 41, 41, 0.795);
+    transform: translateY(-7px);
 }
 
 /*------------------------ 2.2 Twitter Section ------------------------*/
