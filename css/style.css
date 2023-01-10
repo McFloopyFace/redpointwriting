@@ -1049,7 +1049,7 @@ header.white .nav-icon span {
 
 footer{
     width: 100%;
-    position: fixed;
+    position: default;
     z-index: 2;
     bottom: 0;
     background: #efefef;
