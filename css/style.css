@@ -767,6 +767,8 @@ header.white .nav-icon span {
 }
 
 .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #efefef;
     position: relative;
     border-radius: 25px;
