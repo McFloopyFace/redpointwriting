@@ -1123,6 +1123,22 @@ footer .getintouch strong{
     color: #000;
 }
 
+footer .subscribe{
+    padding-top: 24px;
+    color: #000;
+}
+
+footer .subscribe a{
+    font-size: 14px;
+    color: #979797;
+    text-decoration: none;
+}
+
+footer .subscribe strong{
+    font-size: 20px;
+    color: #000;
+}
+
 
 
 /*------------------------ About Page ------------------------*/
