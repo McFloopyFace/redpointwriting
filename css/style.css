@@ -21,7 +21,6 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    padding-bottom: 170px;
     font-weight: 500;
 }
 
@@ -767,6 +766,14 @@ header.white .nav-icon span {
     font-weight: 700;
 }
 
+.container {
+    background-color: #efefef;
+    position: relative;
+    border-radius: 25px;
+    width: 100%;
+
+}
+
 
 /*------------------------ 2.2 Twitter Section ------------------------*/
 
@@ -1049,7 +1056,8 @@ header.white .nav-icon span {
 
 footer{
     width: 100%;
-    position: default;
+    position: relative;
+    margin-top: 100px;
     z-index: 2;
     bottom: 0;
     background: #efefef;
@@ -1783,9 +1791,7 @@ textarea.form-message{
         padding-bottom: 10px;
     }
 
-    body {
-        padding-bottom: 176px;
-    }
+
 
     footer .social{
         padding-bottom: 10px;
@@ -1900,11 +1906,6 @@ textarea.form-message{
 
     footer .copyright{
         text-align: center;
-    }
-
-    body {
-        font-family: 'Montserrat', sans-serif;
-        padding-bottom: 218px;
     }
 
     footer .social {
