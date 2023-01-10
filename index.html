@@ -39,6 +39,13 @@
 </head>
 
 <body>
+    <script>
+        function scrollToContactForm() {
+            var getMeTo = document.getElementById("contact");
+            getMeTo.scrollIntoView({ behavior: 'smooth' }, false);
+        }
+    </script>
+    
     <!-- PRELOADER -->
     <div class="preloader">
         <div class="loader">
@@ -104,7 +111,7 @@
                     <a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i>  </a>
                 </div> -->
                 <div class="contact-btn-container">
-                    <button class="contact-btn">Contact Us</button>
+                    <button onclick="scrollToContactForm()" class="contact-btn">Contact Us</button>
                 </div>
             </div>
         </section>
@@ -200,13 +207,14 @@
                 <div class="col-md-6">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. 
+                        of type and scrambled it to make a type specimen book.
                         <br>
                         It has survived not only five centuries,
                         but also the leap into electronic typesetting, remaining essentially unchanged. It was
                         popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                         and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.</p>
+                        Lorem Ipsum.
+                    </p>
                 </div>
                 <div class="col-md-6">
                     <div class="section-title text-center">
@@ -261,8 +269,8 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 d-none d-sm-block subscribe">
-                        <strong>Subscribe</strong><br>
-                        <p>info@redpointwriting.com</p>
+                    <strong>Subscribe</strong><br>
+                    <p>info@redpointwriting.com</p>
                 </div>
             </div>
         </div>
