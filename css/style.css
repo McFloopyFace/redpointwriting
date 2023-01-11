@@ -1111,7 +1111,7 @@ footer{
     padding-top: 16px;
     z-index: 2;
     bottom: 0;
-    background: #efefef;
+    background: #3b3b3b;
 }
 
 footer .copyright p{
@@ -1165,7 +1165,7 @@ footer .getintouch a strong:hover{
 
 footer .getintouch strong{
     font-size: 20px;
-    color: #000;
+    color: white;
 }
 
 footer .offers{
@@ -1186,7 +1186,7 @@ footer .offers li{
 
 footer .offers strong{
     font-size: 20px;
-    color: #000;
+    color: white;
 }
 
 footer .footer-menu{
@@ -1210,7 +1210,7 @@ footer .footer-menu a{
 
 footer .footer-menu strong{
     font-size: 20px;
-    color: #000;
+    color: white;
 }
 
 footer .footer-menu nav a:hover{
