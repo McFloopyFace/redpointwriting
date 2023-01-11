@@ -90,7 +90,7 @@
     <script>
         function scrollToContactForm() {
             var getMeTo = document.getElementById("contact");
-            getMeTo.scrollIntoView({ behavior: 'smooth' }, false);
+            getMeTo.scrollIntoView({ behavior: 'smooth', block: 'center' }, false);
         }
     </script>
 
@@ -317,10 +317,9 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 d-none d-sm-block subscribe">
-                    <strong>Subscribe</strong><br>
                     <div>
                         <!-- START - We recommend to place the below code where you want the form in your website html  -->
-                        <div class="sib-form" style="text-align: center; background-color: #efefef;                                 ">
+                        <div class="sib-form" style="text-align: center; background-color: #efefef; margin-left: -20px; padding-left: 20px; margin-top: -30px; padding-top: 20px;                                ">
                             <div id="sib-form-container" class="sib-form-container">
                                 <div id="error-message" class="sib-form-message-panel"
                                     style="font-size:16px; text-align:left; font-family:Montserrat, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
@@ -433,11 +432,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="padding: 0px 0;">
+                                        <div style="padding: 8px 0;">
                                             <div class="sib-form-block" style="text-align: left">
                                                 <button
                                                     class="sib-form-block__button sib-form-block__button-with-loader"
-                                                    style="font-size:16px; text-align:left; font-weight:700; font-family:Montserrat, sans-serif; color:#FFFFFF; background-color:#db2919; border-radius:3px; border-width:0px;"
+                                                    style="font-size:16px; text-align:left; font-weight:700; font-family:Montserrat, sans-serif; color:black; background-color:#ea0026; border-radius:3px; border-width:0px; border: 2px solid black"
                                                     form="sib-form" type="submit">
                                                     <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
                                                         viewBox="0 0 512 512">
