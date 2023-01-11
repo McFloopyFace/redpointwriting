@@ -995,7 +995,6 @@ header.white .nav-icon span {
 
 
 /* Nav Icon */
-
 .nav-icon span {
     display: block;
     position: absolute;
@@ -1157,6 +1156,27 @@ footer .getintouch a strong:hover{
 }
 
 footer .getintouch strong{
+    font-size: 20px;
+    color: #000;
+}
+
+footer .offers{
+    padding-top: 24px;
+    color: #000;
+}
+
+footer .offers nav{
+    margin-left: -20px;
+}
+
+footer .offers li{
+    font-size: 14px;
+    padding-bottom: 2px;
+    color: #979797;
+    text-decoration: none;
+}
+
+footer .offers strong{
     font-size: 20px;
     color: #000;
 }
