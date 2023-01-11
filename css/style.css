@@ -1156,6 +1156,11 @@ footer .getintouch a strong:hover{
     transition: all ease 0.2s;
 }
 
+footer .getintouch nav a:hover{
+    color: #ea0026;
+    transition: all ease 0.2s;
+}
+
 footer .getintouch strong{
     font-size: 20px;
     color: #000;
@@ -1176,8 +1181,6 @@ footer .subscribe strong{
     font-size: 20px;
     color: #000;
 }
-
-
 
 /*------------------------ About Page ------------------------*/
 
