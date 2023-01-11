@@ -1156,14 +1156,34 @@ footer .getintouch a strong:hover{
     transition: all ease 0.2s;
 }
 
-footer .getintouch nav a:hover{
-    color: #ea0026;
-    transition: all ease 0.2s;
-}
-
 footer .getintouch strong{
     font-size: 20px;
     color: #000;
+}
+
+footer .footer-menu{
+    padding-top: 24px;
+    color: #000;
+}
+
+footer .footer-menu nav{
+    margin-left: -20px;
+}
+
+footer .footer-menu a{
+    font-size: 14px;
+    color: #979797;
+    text-decoration: none;
+}
+
+footer .footer-menu strong{
+    font-size: 20px;
+    color: #000;
+}
+
+footer .footer-menu nav a:hover{
+    color: #ea0026;
+    transition: all ease 0.2s;
 }
 
 footer .subscribe{
