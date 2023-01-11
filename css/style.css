@@ -822,6 +822,14 @@ header.white .nav-icon span {
     transform: translateY(-7px);
 }
 
+.form-title-red span{
+    color: #ea0026;
+}
+
+.form-title-red{
+    font-weight: 700;
+}
+
 /*------------------------ 2.2 Twitter Section ------------------------*/
 
 
