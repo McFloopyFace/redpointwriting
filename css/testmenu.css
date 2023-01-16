@@ -1,0 +1,171 @@
+@media only screen and (max-width: 767px) {
+    .navbar {
+        /* Change the layout of the navigation bar to a vertical stack */
+        display: flex;
+        flex-direction: column;
+
+        /* Hide the horizontal navigation links */
+        .nav-link {
+            display: none;
+        }
+
+        /* Show the hamburger menu icon */
+        .nav-icon {
+            display: block;
+
+            /* Style the hamburger menu icon as needed */
+            span {
+                display: block;
+                position: absolute;
+                height: 4px;
+                width: 100%;
+                background: #4f535f;
+            }
+
+            span:nth-child(1) {
+                top: 0;
+            }
+
+            span:nth-child(2) {
+                top: 8px;
+            }
+
+            span:nth-child(3) {
+                top: 16px;
+            }
+        }
+    }
+
+    /* Style the full-screen menu when it is displayed */
+    .full-menu {
+        /* Position and style the full-screen menu as needed */
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 4;
+
+        /* Make the menu slide in from the right */
+        transform: translateX(100%);
+        transition: all ease 0.4s 0.6s;
+    }
+
+    .full-menu .full-inner {
+        height: 100%;
+    }
+
+    .full-menu .full-inner nav {
+        text-align: left;
+        padding-left: 5%;
+        display: table;
+        height: 100%;
+    }
+
+    .full-menu .full-inner nav ul {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .full-menu .full-inner nav ul li {
+        list-style: none;
+        overflow: hidden;
+    }
+
+    .full-menu .full-inner nav ul li a {
+        color: #4f535f;
+        font-size: 40px;
+        font-weight: 900;
+        text-decoration: none;
+
+        /* Make the menu items slide in from the top */
+        transform: translateY(47px);
+        display: block;
+        transition: all ease 0.4s 0.0s;
+    }
+
+    .full-menu .full-inner .full-contact {
+        background: #f2f2f2;
+    }
+
+    .full-menu .full-contact {
+        display: table;
+        height: 100%;
+    }
+
+    .full-menu .full-inner .full-contact ul {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .full-menu .full-inner .full-contact ul li {
+        list-style: none;
+
+        /* Make the contact information slide in from the bottom */
+        transform: translateY(25px);
+        opacity: 0;
+        transition: all ease 0.4s 0.3s;
+    }
+
+    .full-menu .full-inner .full-contact ul li.title {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .full-menu .full-inner .full-contact ul li {
+        font-size: 20px;
+        color: #4f535f;
+        font-weight: 600;
+    }
+
+    .full-menu .full-inner .full-contact ul li .social {
+        margin-top: 10px;
+    }
+
+    .full-menu .full-inner .full-contact ul li .social a {
+        font-size: 13px;
+        color: #4f535f;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .full-menu .full-inner .full-contact ul li .social a i:hover {
+        transition: all ease 0.3s;
+        -webkit-transition: all ease 0.3s;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+    /* Full Menu Animate */
+    .full-open .full-menu {
+        /* Make the menu slide in from the right */
+        transform: translateX(0);
+        transition-delay: 0s;
+    }
+
+    .full-open .full-menu .full-inner nav ul li a {
+        text-decoration: none;
+        transform: translateY(0);
+        transition: transform ease 0.7s 0.5s;
+    }
+
+    .full-open .full-menu .full-inner nav ul li a:hover {
+        transition: all ease 0.3s;
+    }
+
+    .full-open .full-menu .full-inner .full-contact ul li:nth-child(1) {
+        transform: translateY(0);
+        opacity: 1;
+        transition: all ease 0.7s 1.0s;
+    }
+
+    .full-open .full-menu .full-inner .full-contact ul li:nth-child(2) {
+        transform: translateY(0);
+        opacity: 1;
+        transition: all ease 0.7s 1.2s;
+    }
+
+    .full-open .full-menu .full-inner .full-contact ul li:nth-child(3) {
+        transform: translateY(0);
+        opacity: 1;
+        transition: all ease 0.7s 1.4s;
+    }
