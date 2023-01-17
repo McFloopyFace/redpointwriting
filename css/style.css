@@ -1229,6 +1229,11 @@ footer .subscribe a{
     text-decoration: none;
 }
 
+.success-button a{
+    color: #ea0026;
+    text-decoration: none;
+}
+
 /*------------------------ About Page ------------------------*/
 
 .titlebar{
